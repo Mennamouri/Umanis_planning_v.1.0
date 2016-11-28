@@ -5,3 +5,17 @@
 - créer des taches
 - affichage de l'agenda en jour / mois / ou semaine
 - possibilité d'afficher que l'agenda voulu ( gris, rouge, blanc et jaune)
+- dans agenda jaune: anglet rubrique.
+- anglet rubrique affiche toutes les taches pas encore confirmer.
+- affichage des taches en pdf, possibilité de les telecharger.
+- ajouter un nouveau membres
+- supprimer un membres
+- un membres peut modifier la durée de ces taches
+- un membre peut ajouter à commentaire pour une tache !!!
+- cordinateur: suppression de taches, ajout de taches ou modifications de taches (enreistrement des modif...).
+- anglet statistique :
+        - nombre d'absences au total par jour
+        -nombre d'heure de travail au total par jour
+        - pour chaque membre: le nombre d'absence, de travail/jour aussi par mois.
+        - nombre de tâches	à	réaliser	sur	un	serveur	de	production par mois
+        - nombre de tâches	à	réaliser	sur	un	serveur	de	qualification par mois
