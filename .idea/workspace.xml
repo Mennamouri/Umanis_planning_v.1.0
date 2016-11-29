@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a212d4-12d7-4124-a708-be3345f3d257" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documents/CDC_foncionnel" afterPath="$PROJECT_DIR$/documents/CDC_foncionnel" />
     </list>
     <ignored path="Umanis_planning_v.1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -107,12 +114,12 @@
       <list>
         <option value="$PROJECT_DIR$/documents/CDC_foncionnel" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" />
-        <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/signup.html" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/login.html" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/login.js" />
         <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/signup.js" />
+        <option value="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -390,12 +397,12 @@
       <updated>1480367855258</updated>
       <workItem from="1480367856349" duration="3871000" />
       <workItem from="1480406728890" duration="11549000" />
-      <workItem from="1480454321109" duration="1086000" />
+      <workItem from="1480454321109" duration="2464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16506000" />
+    <option name="totallyTimeSpent" value="17884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -528,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -552,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/signup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -570,8 +561,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
-angular
+var app = angular
   .module('umanisPlanningV10App', [
     'ngAnimate',
     'ngCookies',
@@ -17,8 +17,8 @@ angular
     'ngSanitize',
     'ngTouch',
     "firebase"
-  ])
-  .config(function ($routeProvider) {
+  ]);
+  app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -43,4 +43,12 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  });
+app.run(function ($rootScope, $location) {
+  $rootScope.user = null;
+  $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+    if ( $rootScope.user == null ) {
+        $location.path( "/login" );
+      }
+    });
   });
