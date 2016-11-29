@@ -15,7 +15,7 @@
 - cordinateur: suppression de taches, ajout de taches ou modifications de taches (enreistrement des modif...).
 - anglet statistique :
         - nombre d'absences au total par jour
-        -nombre d'heure de travail au total par jour
+        -nombre d'heure de travail au total par jour.
         - pour chaque membre: le nombre d'absence, de travail/jour aussi par mois.
         - nombre de tâches	à	réaliser	sur	un	serveur	de	production par mois
         - nombre de tâches	à	réaliser	sur	un	serveur	de	qualification par mois

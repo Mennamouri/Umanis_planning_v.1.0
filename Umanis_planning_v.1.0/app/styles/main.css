@@ -81,3 +81,10 @@ body {
     border-bottom: 0;
   }
 }
+
+/*
+** Custom CSS
+*/
+.error{
+  color: #c63619;
+}
