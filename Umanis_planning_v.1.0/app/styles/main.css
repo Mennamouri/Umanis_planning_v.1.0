@@ -19,7 +19,6 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -34,7 +33,6 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
@@ -88,3 +86,56 @@ body {
 .error{
   color: #c63619;
 }
+.login_container
+{
+  background-color: transparent;
+  background-image: url("https://thumbs.dreamstime.com/x/empreinte-digitale-rouge-14326361.jpg");
+  background-repeat:no-repeat;
+  background-size: 32%;
+  margin-top:35%;
+  transform: translateY(-50%);
+}
+.login_container #login
+{
+  float: right;
+  width: 60%;
+}
+.login_container #pwd
+{
+  float: right;
+  width: 60%;
+}
+.login_container #loginlabel
+{
+  font-size: large;
+  margin-left: 25%;
+}
+.login_container #pwdlabel
+{
+  font-size: large;
+  margin-left: 19%;
+}
+.login_container h1
+{
+  color:red;
+  margin-left: 35%;
+  font-size: x-large;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 4px 20px;
+}
+#header.container
+{
+  background-color:rgba(255, 0, 0, 0.8);
+  color: white;
+}
+#header.container a
+{
+  color: white;
+}
+#header.container .active a
+{
+  background-color: black;
+}
+
