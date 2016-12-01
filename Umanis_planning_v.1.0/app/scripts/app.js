@@ -16,7 +16,9 @@ var app = angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    "firebase"
+    "firebase",
+    "ui.calendar",
+    "ngMaterial"
   ]);
   app.config(function ($routeProvider) {
     $routeProvider
