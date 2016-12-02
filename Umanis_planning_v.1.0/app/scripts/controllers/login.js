@@ -17,6 +17,7 @@ angular.module('umanisPlanningV10App')
     $scope.signIn = function() {
       auth.$signInWithEmailAndPassword($scope.newUser.login, $scope.newUser.pwd).then(function(firebaseUser) {
         $rootScope.user = firebaseUser;
+        $window.localStorage.setItem('user',JSON.stringify($rootScope.user));
         $window.location.href = '#/';
       }).catch(function(error) {
         $scope.error = error;

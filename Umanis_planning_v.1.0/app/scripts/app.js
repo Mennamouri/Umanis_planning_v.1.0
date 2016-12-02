@@ -46,10 +46,14 @@ var app = angular
         redirectTo: '/'
       });
   });
-app.run(function ($rootScope, $location) {
+app.run(function ($rootScope, $location, $window) {
   $rootScope.user = null;
+  if($window.localStorage.getItem('user')){
+    $rootScope.user = JSON.parse($window.localStorage.getItem('user'));
+  }
   $rootScope.$on( "$routeChangeStart", function(event, next, current) {
     if ( $rootScope.user == null ) {
+      if (next.templateUrl !== "views/login.html" && next.templateUrl !== "views/signup.html" )
         $location.path( "/login" );
       }
     });
