@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a212d4-12d7-4124-a708-be3345f3d257" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/services/firebaseservices.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/angular-material.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/create_project.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/templates/create_project_temp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/test/spec/services/firebaseservices.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/scripts/controllers/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/main.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/bower.json" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/package.json" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/test/karma.conf.js" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/test/karma.conf.js" />
     </list>
     <ignored path="Umanis_planning_v.1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -627,12 +614,12 @@
       <workItem from="1480406728890" duration="11549000" />
       <workItem from="1480454321109" duration="2513000" />
       <workItem from="1480494448281" duration="14574000" />
-      <workItem from="1480579922747" duration="14170000" />
+      <workItem from="1480579922747" duration="14943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46677000" />
+    <option name="totallyTimeSpent" value="47450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1925" height="1056" extended-state="0" />
