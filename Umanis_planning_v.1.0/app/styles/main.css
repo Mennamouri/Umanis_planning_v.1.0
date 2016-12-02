@@ -105,9 +105,14 @@ body {
   background-color: transparent;
   background-image: url("https://thumbs.dreamstime.com/x/empreinte-digitale-rouge-14326361.jpg");
   background-repeat:no-repeat;
-  background-size: 32%;
-  margin-top:35%;
+  background-size: 25%;
+ /* margin-top:35%;*/
+  margin-bottom:20%;
+  margin-left: 20%;
+  /*margin-right:20%;*/
+  margin-top: 20%;
   transform: translateY(-50%);
+  width: 60%;
 }
 .login_container #login
 {
@@ -133,7 +138,7 @@ body {
 {
   color:red;
   margin-left: 35%;
-  font-size: x-large;
+  font-size: xx-large;
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -143,6 +148,9 @@ body {
 {
   background-color:rgba(255, 0, 0, 0.8);
   color: white;
+  font-family: "Rage Italic";
+  font-size: larger;
+  font-weight: bold;
 }
 #header.container a
 {
@@ -152,4 +160,52 @@ body {
 {
   background-color: black;
 }
-
+.jumbotron h1
+{
+  color: black;
+  margin-bottom: 6%;
+  margin-top: auto;
+}
+.jumbotron h2
+{
+  color: red  ;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.jumbotron
+{
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+#projects_dash
+{
+  border:  3px double black;
+  height: 593px;
+  margin-top: 15%;
+}
+#projects_list ul
+{
+  margin-top:17%;
+  background-color: #faebcc	;
+  list-style: none;
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 202px;
+  overflow-y: scroll;
+}
+#projects_list ul li
+{
+  text-align: left;
+  margin-bottom: 3%;
+  margin-top: 4%;
+}
+.jumbotron .btn
+{
+  font-size: 16px;
+  padding: 4px 20px;
+}
+.jumbotron .col-md-4
+{
+  padding-right: 2%;
+}

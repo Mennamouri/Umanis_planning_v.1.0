@@ -1,8 +1,8 @@
 <div class="jumbotron" ng-controller="MainCtrl">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>Agenda</h1>
   <aside class="col-md-4">
     <section id="projects_dash">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div id="projects_list" >
         <ul>
           <li ng-repeat="p in projectsList" ng-class="{owner: p.createdBy.login == user.email, guest: checkForGuest(p), forbidden: (p.createdBy.login != user.email && !checkForGuest(p))}" >{{p.name}}</li>
