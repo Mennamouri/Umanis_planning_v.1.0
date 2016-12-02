@@ -8,11 +8,21 @@
  * Controller of the umanisPlanningV10App
  */
 angular.module('umanisPlanningV10App')
-  .controller('MainCtrl', function ($rootScope, $scope, $mdDialog, $firebaseObject,firebaseServices) {
-    var ref = firebase.database().ref();
+  .controller('MainCtrl', function ($rootScope, $scope, $mdDialog, $firebaseObject,firebaseServices, $firebaseArray) {
+    var ref = firebase.database().ref().child("projects");
+    $scope.projectsList = $firebaseArray(ref);
+    $scope.checkForGuest = function(proj){
+      var valueToReturn = false;
+      if(proj.guest){
+        proj.guest.forEach(function (p) {
+          if(p == $rootScope.user.email)
+            valueToReturn = true;
+        });
+      }
+      return valueToReturn;
+    };
     $scope.status = '  ';
     $scope.customFullscreen = false;
-    $scope.projectsList = [];
     $scope.eventSources = [];
     $scope.uiConfig = {
       calendar:{
@@ -26,6 +36,12 @@ angular.module('umanisPlanningV10App')
         eventDrop: $scope.alertOnDrop,
         eventResize: $scope.alertOnResize
       }
+    };
+    $scope.selectedProject = {
+      name : '',
+      createdBy : {id : '', login : ''},
+      guest : [],
+      task : []
     };
 
     $scope.showCreateProjectPopup = function(ev) {

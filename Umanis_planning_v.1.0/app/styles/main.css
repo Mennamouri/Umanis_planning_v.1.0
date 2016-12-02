@@ -83,6 +83,15 @@ body {
 .jumbotron.ng-scope{
   overflow: hidden;
 }
+.owner{
+  color: #00A000 !important;
+}
+.guest{
+  color: #0b97c4;
+}
+.forbidden{
+  color: #8b8e8a;
+}
 .container{
   width: 100%;
   padding-left: 0;
