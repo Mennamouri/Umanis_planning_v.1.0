@@ -5,10 +5,33 @@
       <h2>Projects</h2>
       <div id="projects_list" >
         <ul>
-          <li ng-repeat="p in projectsList" ng-class="{owner: p.createdBy.login == user.email, guest: checkForGuest(p), forbidden: (p.createdBy.login != user.email && !checkForGuest(p))}" >{{p.name}}</li>
+          <li ng-repeat="p in projectsList" ng-class="{owner: p.createdBy.login == user.email, guest: checkForGuest(p), forbidden: (p.createdBy.login != user.email && !checkForGuest(p))}" >
+            <a ng-click="changeSelectedProject(p)">{{p.name}}</a>
+          </li>
         </ul>
       </div>
       <button class="btn btn-primary" ng-click="showCreateProjectPopup($event)" >Create New Project</button>
+    </section>
+    <section id="task_section">
+      <h1>Task List</h1>
+      <div id="task_list">
+        <ul>
+          <li ng-repeat="t in selectedProject.task" >
+            <form ng-if="selectedProject.createdBy.login == user.email">
+              <input type="date" class="form-control"  ng-model="t.start" />
+              <input type="date" class="form-control"  ng-model="t.end" />
+              <select class="form-control" ng-model="t.target">
+                <option ng-repeat="g in selectedProject.guest" value="{{g}}">{{g}}</option>
+              </select>
+              <input type="text" class="form-control"  ng-model="t.title"/>
+              <textarea rows="4" cols="80" style="resize: none" ng-model="t.description"></textarea>
+              <button class="btn btn-success" ng-click="saveTask(t)">Modify</button>
+              <button class="btn btn-danger">Cancel</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+      <button ng-if="selectedProject.createdBy.login == user.email" class="btn btn-primary" ng-click="addTask()" >Add a Task</button>
     </section>
   </aside>
   <main class="col-md-8">

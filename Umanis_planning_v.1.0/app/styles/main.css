@@ -83,13 +83,15 @@ body {
 .jumbotron.ng-scope{
   overflow: hidden;
 }
-.owner{
+.owner a{
   color: #00A000 !important;
+  cursor: pointer;
 }
-.guest{
+.guest a{
   color: #0b97c4;
+  cursor: pointer;
 }
-.forbidden{
+.forbidden a{
   color: #8b8e8a;
 }
 .container{

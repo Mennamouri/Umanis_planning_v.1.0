@@ -19,8 +19,10 @@ angular.module('umanisPlanningV10App')
           name : project.name
         });
         firebase.database().ref('projects/' + project.name + '/createdBy').set(project.createdBy);
-        console.log(project.guest);
         firebase.database().ref('projects/' + project.name + '/guest').set(project.guest);
+      },
+      saveTaskInProject: function (project, task) {
+        firebase.database().ref('projects/' + project + '/task/' + task.id).set(task);
       }
     };
   });

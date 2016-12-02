@@ -21,9 +21,16 @@ angular.module('umanisPlanningV10App')
       }
       return valueToReturn;
     };
+
+    $scope.selectedProject = {
+      name : '',
+      createdBy : {id : '', login : ''},
+      guest : [],
+      task : []
+    };
     $scope.status = '  ';
     $scope.customFullscreen = false;
-    $scope.eventSources = [];
+    $scope.eventSources = $scope.selectedProject.task ? $scope.selectedProject.task : [];
     $scope.uiConfig = {
       calendar:{
         editable: true,
@@ -36,12 +43,6 @@ angular.module('umanisPlanningV10App')
         eventDrop: $scope.alertOnDrop,
         eventResize: $scope.alertOnResize
       }
-    };
-    $scope.selectedProject = {
-      name : '',
-      createdBy : {id : '', login : ''},
-      guest : [],
-      task : []
     };
 
     $scope.showCreateProjectPopup = function(ev) {
@@ -58,6 +59,10 @@ angular.module('umanisPlanningV10App')
         }, function() {
           $scope.status = 'You cancelled the dialog.';
         });
+    };
+    $scope.changeSelectedProject = function(proj){
+      if(proj.createdBy.login == $rootScope.user.email || $scope.checkForGuest(proj))
+        $scope.selectedProject = proj;
     };
     function DialogController($scope, $mdDialog) {
       $scope.newProject = {
@@ -85,4 +90,25 @@ angular.module('umanisPlanningV10App')
         $mdDialog.cancel();
       };
     }
+    $scope.saveTask = function(task){
+      task.start = task.start.getTime();
+      task.end = task.end.getTime();
+      firebaseServices.saveTaskInProject($scope.selectedProject.name, task);
+    };
+    $scope.addTask = function(){
+      var date = new Date();
+      var d = date.getDate();
+      var m = date.getMonth();
+      var y = date.getFullYear();
+      var newTask = {
+        id : date.getTime().toString(),
+        start : new Date(y, m, d).toString(),
+        end : new Date(y, m, d + 1).toString(),
+        target : $rootScope.user.email,
+        title : 'Insert a title',
+        description : 'Insert a description'
+      };
+      console.log(new Date(y, m, d));
+      firebaseServices.saveTaskInProject($scope.selectedProject.name,newTask);
+    };
   });
