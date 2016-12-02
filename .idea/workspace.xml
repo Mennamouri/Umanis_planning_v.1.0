@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1a212d4-12d7-4124-a708-be3345f3d257" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/login.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/main.html" afterPath="$PROJECT_DIR$/Umanis_planning_v.1.0/app/views/main.html" />
     </list>
     <ignored path="Umanis_planning_v.1.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="185" column="1" lean-forward="true" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
+            <state relative-caret-position="697">
+              <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -445,12 +442,20 @@
       <workItem from="1480494448281" duration="14574000" />
       <workItem from="1480579922747" duration="19501000" />
       <workItem from="1480680015781" duration="8037000" />
-      <workItem from="1480700760758" duration="4204000" />
+      <workItem from="1480700760758" duration="4583000" />
     </task>
+    <task id="LOCAL-00001" summary="modif partie graphique">
+      <created>1480705350925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480705350925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64249000" />
+    <option name="totallyTimeSpent" value="64628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -510,6 +515,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modif partie graphique" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif partie graphique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -892,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Umanis_planning_v.1.0/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="185" column="1" lean-forward="true" selection-start-line="185" selection-start-column="1" selection-end-line="185" selection-end-column="1" />
+        <state relative-caret-position="697">
+          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
           <folding />
         </state>
       </provider>
