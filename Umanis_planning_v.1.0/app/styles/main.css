@@ -98,6 +98,7 @@ body {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
+  background-color: white;
 }
 .error{
   color: #c63619;
@@ -174,21 +175,19 @@ body {
   font-size: xx-large;
   font-weight: bold;
 }
-.jumbotron
+#agenda
 {
   width: 90%;
   margin: auto;
   background-color: white;
 }
-#projects_dash
+aside
 {
   border:  3px double black;
-  height: 593px;
-  margin-top: 15%;
 }
 #projects_list ul
 {
-  margin-top:17%;
+  margin-top:3%;
   background-color: #faebcc	;
   list-style: none;
   margin-right: 5%;
@@ -210,4 +209,27 @@ body {
 .jumbotron aside
 {
   padding-right: 2%;
+}
+#task_section h1
+{
+  color: red  ;
+  margin-top: 6%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#task_list ul
+{
+  list-style: none;
+  width: 90%;
+}
+#task_list ul li
+{
+  text-align: left;
+  margin-bottom: 3%;
+  margin-top: 4%;
+}
+#description
+{
+  font-size: 120%;
+  width: 100%;
 }
