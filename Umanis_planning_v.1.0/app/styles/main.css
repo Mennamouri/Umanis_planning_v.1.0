@@ -109,13 +109,12 @@ body {
   background-image: url("https://thumbs.dreamstime.com/x/empreinte-digitale-rouge-14326361.jpg");
   background-repeat:no-repeat;
   background-size: 25%;
- /* margin-top:35%;*/
   margin-bottom:20%;
   margin-left: 20%;
-  /*margin-right:20%;*/
   margin-top: 20%;
   transform: translateY(-50%);
   width: 60%;
+
 }
 .login_container #login
 {
@@ -205,6 +204,8 @@ aside
 {
   font-size: 16px;
   padding: 4px 20px;
+  margin-right: -17%;
+  margin-left: 23%;
 }
 .jumbotron aside
 {
@@ -227,9 +228,57 @@ aside
   text-align: left;
   margin-bottom: 3%;
   margin-top: 4%;
-}
+}h1
 #description
 {
   font-size: 120%;
   width: 100%;
+}
+#title
+{
+  color: red;
+  font-size: xx-large;
+  font-weight: bold;
+}
+#container
+{
+  background-color: transparent;
+  background-image: url("http://www.fonds-ecran-hd.ch/fonds-ecran-cube-noir-539.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  width: 80%;
+  margin-left: 11%;
+}
+#container #loginlabel
+{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+#container #pwdlabel
+{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+#container #pwd_confirm_label
+{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+#container #login
+{
+  width: 60%;
+  margin: auto;
+}
+#container #pwd
+{
+  width: 60%;
+  margin: auto;
+}
+#container #pwd_confirm
+{
+  width: 60%;
+  margin: auto;
 }

@@ -1,17 +1,17 @@
-<div class="jumbotron" ng-controller="SignupCtrl">
-  <h1>Account Creation</h1>
+<div id="container" class="jumbotron" ng-controller="SignupCtrl">
+  <h1 id="title">Account Creation</h1>
   <form ng-submit="createAccount()">
     <p class="error" ng-if="error" >{{error.message}}</p>
     <div class="form-group">
-      <label for="login">Login:</label>
+      <label id="loginlabel" for="login">Login:</label>
       <input type="email" class="form-control" id="login" ng-model="newUser.login" required>
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
+      <label id="pwdlabel" for="pwd">Password:</label>
       <input type="password" class="form-control" id="pwd" ng-model="newUser.pwd" required>
     </div>
     <div class="form-group">
-      <label for="pwd_confirm">Confirm Password:</label>
+      <label id="pwd_confirm_label" for="pwd_confirm">Confirm Password:</label>
       <input type="password" class="form-control" id="pwd_confirm" ng-model="newUser.pwdConfirm" required>
     </div>
     <button type="submit" class="btn btn-default">Confirm</button>
