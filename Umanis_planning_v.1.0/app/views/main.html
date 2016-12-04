@@ -24,7 +24,7 @@
                   <option ng-repeat="g in selectedProject.guest" value="{{g}}">{{g}}</option>
                 </select>
                 <input type="text" class="form-control"  ng-model="t.title"/>
-                <textarea id="description" rows="4" cols="80" style="resize: none" ng-model="t.description"></textarea>
+                <textarea id="description" rows="4" style="resize: none" ng-model="t.description"></textarea>
                 <button class="btn btn-success" ng-click="saveTask(t)">Modify</button>
                 <button class="btn btn-danger">Cancel</button>
               </form>

@@ -111,4 +111,5 @@ angular.module('umanisPlanningV10App')
       console.log(new Date(y, m, d));
       firebaseServices.saveTaskInProject($scope.selectedProject.name,newTask);
     };
+
   });

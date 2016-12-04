@@ -204,8 +204,8 @@ aside
 {
   font-size: 16px;
   padding: 4px 20px;
-  margin-right: -17%;
-  margin-left: 23%;
+ /* margin-right: -17%;
+  margin-left: 23%;*/
 }
 .jumbotron aside
 {
@@ -228,7 +228,7 @@ aside
   text-align: left;
   margin-bottom: 3%;
   margin-top: 4%;
-}h1
+}
 #description
 {
   font-size: 120%;
